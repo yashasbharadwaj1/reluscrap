@@ -7,7 +7,7 @@ Answer:
 
 GIVEN
 relu
-https://www.amazon.%7Bcountry%7D/dp/%7Basin%7D
+
 "https://www.amazon.{country}/dp/{asin}"
 
 https://www.amazon.com/dp/{asin}
@@ -55,6 +55,7 @@ scrapy genspider amazon amazon.com
 
 Here the main logic is available at yashas -->
 spiders --> amazon.py
+
 
 scraping italy items only titles
 
