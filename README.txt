@@ -53,7 +53,9 @@ scrapy startproject yashas
 cd yashas
 scrapy genspider amazon amazon.com
 
-Here the main logic is available at spiders --> 
+Here the main logic is available at yashas -->
+spiders --> amazon.py
+
 scraping italy items only titles
 
 scrapy crawl amazon -o itoutput.json
