@@ -46,11 +46,14 @@ this returned 2 rows
 SELECT DISTINCT(Asin) ,country FROM `reluwork` WHERE LENGTH(Asin)=10 and country='fr' ;
 this returned 46 rows
 
+exported all the above results to json format as it.json(itlay),de.json(germany),fr.json(france),es.json(spain)
+
 pip install scrapy
 scrapy startproject yashas
 cd yashas
 scrapy genspider amazon amazon.com
 
+Here the main logic is available at spiders --> 
 scraping italy items only titles
 
 scrapy crawl amazon -o itoutput.json
